@@ -1,15 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="HttpServer">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/server.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ResponseError">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/responseError.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Result">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/result.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Runner">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/runner.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RunnersController">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controllers/runnersController.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="scannedPathMapping">
       <map>
-        <entry key="file://$PROJECT_DIR$/main.go">
+        <entry key="file://$PROJECT_DIR$/config/config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1693612211086" />
+              <option name="lastModified" value="1693614762401" />
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/runnersController.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1693620177518" />
+              <option name="schema">
+                <list>
+                  <option value="RunnersController" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1693613972571" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/models.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1693612756216" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/responseError.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1693613293443" />
+              <option name="schema">
+                <list>
+                  <option value="ResponseError" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/result.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1693613972539" />
+              <option name="schema">
+                <list>
+                  <option value="Result" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/runner.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1693620177538" />
+              <option name="schema">
+                <list>
+                  <option value="Runner" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/server.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1693616098022" />
+              <option name="schema">
+                <list>
+                  <option value="HttpServer" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="http_server" value="HttpServer" />
+        <entry key="response_error" value="ResponseError" />
+        <entry key="result" value="Result" />
+        <entry key="runner" value="Runner" />
+        <entry key="runners_controller" value="RunnersController" />
       </map>
     </option>
     <option name="lastTimeChecked" value="1693611818310" />
