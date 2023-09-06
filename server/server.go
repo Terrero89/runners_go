@@ -2,6 +2,7 @@ package server
 
 import (
 	"database/sql"
+	"github.com/Terrero89/runners_go/controllers"
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/viper"
 )
@@ -23,7 +24,7 @@ func InitDatabase()  (*viper.Viper , dbHandler *sql.DB) HttpServer {
 	runnersService := services.NewRunnersService(runnersRepository, resultRespository)
 	resultsService := services.NewResultsService(resultsRepository, runnersRepository)
 	runnersController := controllers.NewRunnersController(runnersService)
-	resultController := controllers.NewResultController(resultsService)
+	resultController := controllers.NewResultsController(resultsService)
 
 	//routes with GIN framework
 	router := gin.Default()

@@ -17,6 +17,13 @@
             </set>
           </value>
         </entry>
+        <entry key="RessultsController">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controllers/resultsController.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="Result">
           <value>
             <set>
@@ -38,6 +45,20 @@
             </set>
           </value>
         </entry>
+        <entry key="RunnersService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/runnersService.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="runnersService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/runnersService.go" />
+            </set>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="scannedPathMapping">
@@ -49,10 +70,22 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/resultsController.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1693960435489" />
+              <option name="schema">
+                <list>
+                  <option value="RessultsController" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/controllers/runnersController.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1693620177518" />
+              <option name="lastModified" value="1693959914120" />
               <option name="schema">
                 <list>
                   <option value="RunnersController" />
@@ -65,13 +98,6 @@
           <value>
             <ScannedPath>
               <option name="lastModified" value="1693613972571" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/models/models.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1693612756216" />
             </ScannedPath>
           </value>
         </entry>
@@ -114,10 +140,29 @@
         <entry key="file://$PROJECT_DIR$/server/server.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1693616098022" />
+              <option name="lastModified" value="1693959914128" />
               <option name="schema">
                 <list>
                   <option value="HttpServer" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/resultsService.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1693960257023" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/runnersService.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1693963996105" />
+              <option name="schema">
+                <list>
+                  <option value="RunnersService" />
                 </list>
               </option>
             </ScannedPath>
@@ -129,11 +174,13 @@
       <map>
         <entry key="http_server" value="HttpServer" />
         <entry key="response_error" value="ResponseError" />
+        <entry key="ressults_controller" value="RessultsController" />
         <entry key="result" value="Result" />
         <entry key="runner" value="Runner" />
         <entry key="runners_controller" value="RunnersController" />
+        <entry key="runners_service" value="RunnersService" />
       </map>
     </option>
-    <option name="lastTimeChecked" value="1693611818310" />
+    <option name="lastTimeChecked" value="1693957878544" />
   </component>
 </project>
