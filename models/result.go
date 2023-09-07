@@ -1,8 +1,8 @@
-package result
+package models
 
 type Result struct {
 	ID         string `json:"id"`
-	RunnersID  string `json:"runners_id"`
+	RunnerID   string `json:"runners_id"`
 	RaceResult string `json:"race_result"`
 	Location   string `json:"location"`
 	Position   int    `json:"position,omitempty"`

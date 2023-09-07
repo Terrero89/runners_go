@@ -11,14 +11,14 @@ func main() {
 	log.Println("Starting runners app...")
 
 	log.Println("Initializing config...")
-	config := config.InitConfig
+	config := config.InitConfig("runners")
 
 	log.Println("Initilizing Database...")
-	dbHandler := server.InitDatabase
+	dbHandler := server.InitDatabase(config)
 
 	log.Println("Starting server...")
 
-	httpServer := server.InitHttpServer
+	httpServer := server.InitHttpServer(config, dbHandler)
 
 	httpServer.Start()
 }

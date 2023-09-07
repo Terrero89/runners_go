@@ -31,6 +31,13 @@
             </set>
           </value>
         </entry>
+        <entry key="ResultsService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/resultsService.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="Runner">
           <value>
             <set>
@@ -97,14 +104,14 @@
         <entry key="file://$PROJECT_DIR$/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1693613972571" />
+              <option name="lastModified" value="1694045040692" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/models/responseError.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1693613293443" />
+              <option name="lastModified" value="1693960686183" />
               <option name="schema">
                 <list>
                   <option value="ResponseError" />
@@ -116,7 +123,7 @@
         <entry key="file://$PROJECT_DIR$/models/result.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1693613972539" />
+              <option name="lastModified" value="1694048164307" />
               <option name="schema">
                 <list>
                   <option value="Result" />
@@ -128,7 +135,7 @@
         <entry key="file://$PROJECT_DIR$/models/runner.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1693620177538" />
+              <option name="lastModified" value="1694052263415" />
               <option name="schema">
                 <list>
                   <option value="Runner" />
@@ -152,7 +159,12 @@
         <entry key="file://$PROJECT_DIR$/services/resultsService.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1693960257023" />
+              <option name="lastModified" value="1694052109759" />
+              <option name="schema">
+                <list>
+                  <option value="ResultsService" />
+                </list>
+              </option>
             </ScannedPath>
           </value>
         </entry>
@@ -176,6 +188,7 @@
         <entry key="response_error" value="ResponseError" />
         <entry key="ressults_controller" value="RessultsController" />
         <entry key="result" value="Result" />
+        <entry key="results_service" value="ResultsService" />
         <entry key="runner" value="Runner" />
         <entry key="runners_controller" value="RunnersController" />
         <entry key="runners_service" value="RunnersService" />
