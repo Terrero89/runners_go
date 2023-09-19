@@ -52,14 +52,14 @@
             </set>
           </value>
         </entry>
-        <entry key="RunnersService">
+        <entry key="RunnersRepository">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/services/runnersService.go" />
+              <option value="file://$PROJECT_DIR$/repositories/resultsRepository.go" />
             </set>
           </value>
         </entry>
-        <entry key="runnersService">
+        <entry key="RunnersService">
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/services/runnersService.go" />
@@ -144,6 +144,32 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/repositories/resultsRepository.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1695084065509" />
+              <option name="schema">
+                <list>
+                  <option value="RunnersRepository" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/repositories/runnersRepository.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1695083007309" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/repositories/transactionHandler.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1695083025941" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/server/server.go">
           <value>
             <ScannedPath>
@@ -191,9 +217,10 @@
         <entry key="results_service" value="ResultsService" />
         <entry key="runner" value="Runner" />
         <entry key="runners_controller" value="RunnersController" />
+        <entry key="runners_repository" value="RunnersRepository" />
         <entry key="runners_service" value="RunnersService" />
       </map>
     </option>
-    <option name="lastTimeChecked" value="1693957878544" />
+    <option name="lastTimeChecked" value="1695077473928" />
   </component>
 </project>
